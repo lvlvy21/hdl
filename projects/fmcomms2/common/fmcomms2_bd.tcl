@@ -32,7 +32,7 @@ ad_ip_parameter axi_ad9361 CONFIG.ID 0
 # set to 1 for CORDIC or 2 for POLYNOMIAL
 ad_ip_parameter axi_ad9361 CONFIG.DAC_DDS_TYPE 1
 ad_ip_parameter axi_ad9361 CONFIG.DAC_DDS_CORDIC_DW 14
-ad_connect sys_200m_clk axi_ad9361/delay_clk
+ad_connect sys_335m_clk axi_ad9361/delay_clk
 ad_connect axi_ad9361/l_clk axi_ad9361/clk
 ad_connect rx_clk_in_p axi_ad9361/rx_clk_in_p
 ad_connect rx_clk_in_n axi_ad9361/rx_clk_in_n
