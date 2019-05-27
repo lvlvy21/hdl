@@ -61,5 +61,5 @@ create_clock -name rx_div_clk   -period  3.20 [get_pins i_system_wrapper/system_
 
 create_generated_clock -name spi_clk  \
   -source [get_pins i_system_wrapper/system_i/axi_spi/ext_spi_clk] \
-  -divide_by 2 [get_pins i_system_wrapper/system_i/axi_spi/sck_o]
+  -divide_by 4 [get_pins i_system_wrapper/system_i/axi_spi/sck_o]
 
